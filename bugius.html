@@ -7,51 +7,46 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            /* Alterando a fonte para Comic Sans MS */
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            /* Adicionando um gradiente de arco-íris para a temática LGBT */
             background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #9400D3);
-            background-size: 400% 400%; /* Para animação de gradiente */
-            animation: gradientAnimation 15s ease infinite; /* Animação suave do gradiente */
-            color: #334155; /* Darker text */
+            background-size: 400% 400%; 
+            animation: gradientAnimation 15s ease infinite;
+            color: #334155;
         }
 
-        /* Animação para o gradiente de fundo */
         @keyframes gradientAnimation {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
 
-        /* Ajustes para o título e subtítulo para melhor legibilidade com a nova fonte e fundo */
         h1 {
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* Adiciona uma sombra para destaque */
-            color: #ffffff; /* Cor do texto do título para contrastar com o fundo */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            color: #ffffff;
         }
         p.italic {
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            color: #000000; /* Cor do texto do subtítulo alterada para preto */
+            color: #000000;
         }
         .bg-white {
-            background-color: rgba(255, 255, 255, 0.9); /* Torna o painel principal semi-transparente */
+            background-color: rgba(255, 255, 255, 0.9);
         }
         .bg-gray-50 {
-            background-color: rgba(249, 250, 251, 0.9); /* Torna os painéis das imagens semi-transparentes */
+            background-color: rgba(249, 250, 251, 0.9);
         }
-        /* Estilo para o contêiner da imagem circular */
         .image-container {
-            width: 96px; /* Largura fixa para o círculo */
-            height: 96px; /* Altura fixa para o círculo */
-            border-radius: 50%; /* Torna o contêiner circular */
-            overflow: hidden; /* Garante que a imagem seja cortada em forma de círculo */
-            margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para destaque */
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         .image-container img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Garante que a imagem preencha o círculo sem distorção */
+            object-fit: cover;
         }
     </style>
 </head>
@@ -67,7 +62,6 @@
         </header>
 
         <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
-            <!-- Imagem 1 - Atualizada com a nova foto -->
             <div class="flex flex-col items-center text-center bg-gray-50 p-4 rounded-lg shadow-md">
                 <div class="image-container">
                     <img src="487a4c99-a193-41b3-9cbc-be636d023f6f" alt="Imagem de um Bugio" />
@@ -75,7 +69,6 @@
                 <p class="text-gray-700 font-semibold text-lg">nome</p>
             </div>
 
-            <!-- Imagem 2 -->
             <div class="flex flex-col items-center text-center bg-gray-50 p-4 rounded-lg shadow-md">
                 <div class="image-container">
                     <img src="fdee1aa0-d610-4dee-9462-2ef3d1d8da67" alt="Imagem de um Bugio" />
@@ -83,7 +76,6 @@
                 <p class="text-gray-700 font-semibold text-lg">nome</p>
             </div>
 
-            <!-- Imagem 3 -->
             <div class="flex flex-col items-center text-center bg-gray-50 p-4 rounded-lg shadow-md">
                 <div class="image-container">
                     <img src="caa8b6c4-fcd0-4b8c-9cf5-0df4e4a3e54a" alt="Imagem de um Bugio" />
@@ -91,7 +83,6 @@
                 <p class="text-gray-700 font-semibold text-lg">nome</p>
             </div>
 
-            <!-- Imagem 4 -->
             <div class="flex flex-col items-center text-center bg-gray-50 p-4 rounded-lg shadow-md">
                 <div class="image-container">
                     <img src="1e8919e7-ae15-4e6f-abfb-7ea3ff6b357e" alt="Imagem de um Bugio" />
@@ -99,7 +90,6 @@
                 <p class="text-gray-700 font-semibold text-lg">nome</p>
             </div>
 
-            <!-- Imagem 5 -->
             <div class="flex flex-col items-center text-center bg-gray-50 p-4 rounded-lg shadow-md">
                 <div class="image-container">
                     <img src="6066dd30-207e-4b11-a725-a0634e5a5218" alt="Imagem de um Bugio" />
